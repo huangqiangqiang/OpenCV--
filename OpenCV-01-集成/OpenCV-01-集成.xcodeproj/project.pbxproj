@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535E18181EBCB62500C6E057 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535E18171EBCB62500C6E057 /* opencv2.framework */; };
 		53F9FA271EBC373A00FFA999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9FA261EBC373A00FFA999 /* main.m */; };
 		53F9FA2A1EBC373A00FFA999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F9FA291EBC373A00FFA999 /* AppDelegate.m */; };
 		53F9FA2D1EBC373A00FFA999 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53F9FA2C1EBC373A00FFA999 /* ViewController.mm */; };
 		53F9FA301EBC373A00FFA999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F9FA2E1EBC373A00FFA999 /* Main.storyboard */; };
 		53F9FA321EBC373A00FFA999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F9FA311EBC373A00FFA999 /* Assets.xcassets */; };
 		53F9FA351EBC373A00FFA999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F9FA331EBC373A00FFA999 /* LaunchScreen.storyboard */; };
-		53F9FA3D1EBC377900FFA999 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F9FA3C1EBC377900FFA999 /* opencv2.framework */; };
 		53F9FA411EBC3CB900FFA999 /* HQQCVTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53F9FA401EBC3CB900FFA999 /* HQQCVTool.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535E18171EBCB62500C6E057 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
 		53F9FA221EBC373A00FFA999 /* OpenCV-01-集成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenCV-01-集成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F9FA261EBC373A00FFA999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53F9FA281EBC373A00FFA999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		53F9FA311EBC373A00FFA999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53F9FA341EBC373A00FFA999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53F9FA361EBC373A00FFA999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		53F9FA3C1EBC377900FFA999 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../Github/OpenCV--/opencv2.framework"; sourceTree = "<group>"; };
 		53F9FA3F1EBC3CB900FFA999 /* HQQCVTool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HQQCVTool.hpp; sourceTree = "<group>"; };
 		53F9FA401EBC3CB900FFA999 /* HQQCVTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HQQCVTool.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F9FA3D1EBC377900FFA999 /* opencv2.framework in Frameworks */,
+				535E18181EBCB62500C6E057 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		53F9FA191EBC373A00FFA999 = {
 			isa = PBXGroup;
 			children = (
-				53F9FA3C1EBC377900FFA999 /* opencv2.framework */,
+				535E18171EBCB62500C6E057 /* opencv2.framework */,
 				53F9FA241EBC373A00FFA999 /* OpenCV-01-集成 */,
 				53F9FA231EBC373A00FFA999 /* Products */,
 			);
@@ -330,6 +330,7 @@
 				53F9FA3B1EBC373A00FFA999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,21 @@
 
 @implementation ViewController
 
+
+/**
+ opencv集成步骤
+ 
+ 1. 去https://sourceforge.net 网站下载OpenCV.framework
+ 2. 解压并拖入xcode项目中
+ 3. 在build settings中配置 Framework Search Paths，把框架路径添加进去
+ 4. 在需要用到的文件中#import <opencv2/opencv.hpp>
+ 5. 用到opencv的文件必须后缀改成.mm
+ 6. 编译发现有框架内部有错误
+ 7. 把    enum { NO, GAIN, GAIN_BLOCKS };
+    改成  enum { NO_EXPOSURE_COMPENSATOR = 0, GAIN, GAIN_BLOCKS };
+ 8. 编译通过
+ 
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
     
