@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530B77661EC4374400E9D25D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530B77651EC4374400E9D25D /* AppDelegate.m */; };
+		530B77691EC4374400E9D25D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530B77681EC4374400E9D25D /* main.m */; };
+		530B776C1EC4374400E9D25D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 530B776B1EC4374400E9D25D /* ViewController.mm */; };
+		530B776E1EC4374400E9D25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530B776D1EC4374400E9D25D /* Assets.xcassets */; };
+		530B77711EC4374400E9D25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530B776F1EC4374400E9D25D /* Main.storyboard */; };
+		530B777B1EC4378C00E9D25D /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 530B77791EC4378C00E9D25D /* libopencv_core.2.4.13.dylib */; };
+		530B777C1EC4378C00E9D25D /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 530B777A1EC4378C00E9D25D /* libopencv_imgproc.2.4.13.dylib */; };
+		530B77B21EC43AC200E9D25D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530B77AB1EC43AC200E9D25D /* test.jpg */; };
+		530B77B31EC43AC200E9D25D /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 530B77AC1EC43AC200E9D25D /* test.mp4 */; };
+		530B77B41EC43AC200E9D25D /* test2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530B77AD1EC43AC200E9D25D /* test2.jpg */; };
+		530B77B51EC43AC200E9D25D /* test3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 530B77AE1EC43AC200E9D25D /* test3.jpg */; };
+		530B77B61EC43AC200E9D25D /* HQQCVTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 530B77B11EC43AC200E9D25D /* HQQCVTool.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530B77611EC4374400E9D25D /* OpenCV-06-图像处理(2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenCV-06-图像处理(2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530B77641EC4374400E9D25D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		530B77651EC4374400E9D25D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		530B77681EC4374400E9D25D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530B776A1EC4374400E9D25D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		530B776B1EC4374400E9D25D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		530B776D1EC4374400E9D25D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		530B77701EC4374400E9D25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		530B77721EC4374400E9D25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530B77791EC4378C00E9D25D /* libopencv_core.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.13.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_core.2.4.13.dylib; sourceTree = "<group>"; };
+		530B777A1EC4378C00E9D25D /* libopencv_imgproc.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.13.dylib; path = ../../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_imgproc.2.4.13.dylib; sourceTree = "<group>"; };
+		530B77AB1EC43AC200E9D25D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		530B77AC1EC43AC200E9D25D /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		530B77AD1EC43AC200E9D25D /* test2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.jpg; sourceTree = "<group>"; };
+		530B77AE1EC43AC200E9D25D /* test3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.jpg; sourceTree = "<group>"; };
+		530B77B01EC43AC200E9D25D /* HQQCVTool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HQQCVTool.hpp; sourceTree = "<group>"; };
+		530B77B11EC43AC200E9D25D /* HQQCVTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HQQCVTool.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530B775E1EC4374400E9D25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530B777B1EC4378C00E9D25D /* libopencv_core.2.4.13.dylib in Frameworks */,
+				530B777C1EC4378C00E9D25D /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530B77581EC4374300E9D25D = {
+			isa = PBXGroup;
+			children = (
+				530B77AA1EC43AC200E9D25D /* res */,
+				530B77AF1EC43AC200E9D25D /* Tool */,
+				530B77631EC4374400E9D25D /* OpenCV-06-图像处理(2) */,
+				530B77621EC4374400E9D25D /* Products */,
+				530B77781EC4378C00E9D25D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		530B77621EC4374400E9D25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530B77611EC4374400E9D25D /* OpenCV-06-图像处理(2).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530B77631EC4374400E9D25D /* OpenCV-06-图像处理(2) */ = {
+			isa = PBXGroup;
+			children = (
+				530B77641EC4374400E9D25D /* AppDelegate.h */,
+				530B77651EC4374400E9D25D /* AppDelegate.m */,
+				530B776A1EC4374400E9D25D /* ViewController.h */,
+				530B776B1EC4374400E9D25D /* ViewController.mm */,
+				530B776D1EC4374400E9D25D /* Assets.xcassets */,
+				530B776F1EC4374400E9D25D /* Main.storyboard */,
+				530B77721EC4374400E9D25D /* Info.plist */,
+				530B77671EC4374400E9D25D /* Supporting Files */,
+			);
+			path = "OpenCV-06-图像处理(2)";
+			sourceTree = "<group>";
+		};
+		530B77671EC4374400E9D25D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530B77681EC4374400E9D25D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		530B77781EC4378C00E9D25D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				530B77791EC4378C00E9D25D /* libopencv_core.2.4.13.dylib */,
+				530B777A1EC4378C00E9D25D /* libopencv_imgproc.2.4.13.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		530B77AA1EC43AC200E9D25D /* res */ = {
+			isa = PBXGroup;
+			children = (
+				530B77AB1EC43AC200E9D25D /* test.jpg */,
+				530B77AC1EC43AC200E9D25D /* test.mp4 */,
+				530B77AD1EC43AC200E9D25D /* test2.jpg */,
+				530B77AE1EC43AC200E9D25D /* test3.jpg */,
+			);
+			name = res;
+			path = ../res;
+			sourceTree = "<group>";
+		};
+		530B77AF1EC43AC200E9D25D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				530B77B01EC43AC200E9D25D /* HQQCVTool.hpp */,
+				530B77B11EC43AC200E9D25D /* HQQCVTool.mm */,
+			);
+			name = Tool;
+			path = ../Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530B77601EC4374400E9D25D /* OpenCV-06-图像处理(2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530B77751EC4374400E9D25D /* Build configuration list for PBXNativeTarget "OpenCV-06-图像处理(2)" */;
+			buildPhases = (
+				530B775D1EC4374400E9D25D /* Sources */,
+				530B775E1EC4374400E9D25D /* Frameworks */,
+				530B775F1EC4374400E9D25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenCV-06-图像处理(2)";
+			productName = "OpenCV-06-图像处理(2)";
+			productReference = 530B77611EC4374400E9D25D /* OpenCV-06-图像处理(2).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530B77591EC4374300E9D25D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "黄强强";
+				TargetAttributes = {
+					530B77601EC4374400E9D25D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CZNJZR433P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 530B775C1EC4374300E9D25D /* Build configuration list for PBXProject "OpenCV-06-图像处理(2)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 530B77581EC4374300E9D25D;
+			productRefGroup = 530B77621EC4374400E9D25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530B77601EC4374400E9D25D /* OpenCV-06-图像处理(2) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530B775F1EC4374400E9D25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530B776E1EC4374400E9D25D /* Assets.xcassets in Resources */,
+				530B77B41EC43AC200E9D25D /* test2.jpg in Resources */,
+				530B77B21EC43AC200E9D25D /* test.jpg in Resources */,
+				530B77711EC4374400E9D25D /* Main.storyboard in Resources */,
+				530B77B31EC43AC200E9D25D /* test.mp4 in Resources */,
+				530B77B51EC43AC200E9D25D /* test3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530B775D1EC4374400E9D25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530B776C1EC4374400E9D25D /* ViewController.mm in Sources */,
+				530B77B61EC43AC200E9D25D /* HQQCVTool.mm in Sources */,
+				530B77691EC4374400E9D25D /* main.m in Sources */,
+				530B77661EC4374400E9D25D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		530B776F1EC4374400E9D25D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530B77701EC4374400E9D25D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530B77731EC4374400E9D25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		530B77741EC4374400E9D25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		530B77761EC4374400E9D25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "OpenCV-06-图像处理(2)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenCV-06------2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		530B77771EC4374400E9D25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = "OpenCV-06-图像处理(2)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenCV-06------2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530B775C1EC4374300E9D25D /* Build configuration list for PBXProject "OpenCV-06-图像处理(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530B77731EC4374400E9D25D /* Debug */,
+				530B77741EC4374400E9D25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530B77751EC4374400E9D25D /* Build configuration list for PBXNativeTarget "OpenCV-06-图像处理(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530B77761EC4374400E9D25D /* Debug */,
+				530B77771EC4374400E9D25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530B77591EC4374300E9D25D /* Project object */;
+}
